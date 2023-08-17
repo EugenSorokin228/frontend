@@ -1,0 +1,274 @@
+body{
+    background: #EFEFF2;
+    margin: 0;
+    font: 400 18px/28px Inter, sans-serif;
+    color: #6D6D77;
+}
+.container{
+    margin: 0 auto;
+    /* width: 1440px; */
+    padding: 0 15px;
+}
+
+/* Styles for header */
+
+.header{
+    display: flex;
+    padding: 36px 0 0;
+    justify-content: space-between;
+}
+.header_box{
+    display: flex;
+    display: none;
+    gap: 68px;
+}
+.nav_list{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+
+}
+.btn_box{
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+.logo{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 30px;
+    display: flex;
+    gap: 14px;
+    color: #19191C;
+    text-decoration: none;
+    align-items: center;
+}
+.link{
+    color: #19191C;
+    text-decoration: none;
+    align-items: center;
+}
+.link2{
+    color: #19191C;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+.btn{
+    background: #19191C;
+    color: #EFEFF2;
+    padding: 12px 37px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+/* Styles for footer */
+
+.footer{
+    background: #19191C;
+    color: #FBFBFC;
+    padding-top: 59px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.logo2{
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 30px;
+    display: flex;
+    gap: 14px;
+    color: #FBFBFC;
+    text-decoration: none;
+    align-items: center;
+}
+.sitemap{
+    display: flex;
+    list-style: none;
+    gap: 200px;
+}
+.footer_main{
+    display: flex;
+    gap: 146px;
+}
+.link3{
+    color: #FBFBFC;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 24px;
+}
+.contacts_p{
+    line-height: 48px;
+}
+.contacts_p2{
+    line-height: 28px;
+}
+.sitemap_title{
+    font-size: 18px;
+    font-weight: 600;
+}
+.sitemap_list{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 400;
+    align-items: center;
+}
+.link4{
+    color: #FBFBFC;
+    text-decoration: none;
+    align-items: center;
+}
+.copyright{
+    color:#6D6D77;
+    display: flex;
+    gap: 28px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.link5{
+    color: #6D6D77;
+    text-decoration: none;
+    align-items: center;
+    
+}
+
+/* Styles for main */
+
+.offer_holder{
+    width : 648px;
+    background-image: url(../img/Ellipse20.png) 100% 100% no-repeat;
+}
+.offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 0 230px;
+    background: url(../img/Rectangle107.png) 100% 100% no-repeat;
+}
+.offer_list{
+    align-self: flex-end;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: none;
+}
+.invision{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.offer_item{
+    position: absolute;
+    border: 2px solid #19191C;
+    padding: 16px 36px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+}
+.protopie{
+    top: -60px;
+    right: 200px;
+}
+.miro{
+    top: -30px;
+    left: 200px;
+}
+.photoshop{
+    top: 10px;
+    left: 140px;
+}
+.profession_main{
+    display: flex;
+    gap: 141px;
+}
+.profession_title{
+    font-weight: 700;
+    font-size: 58px;
+}
+.profession_desk{
+    font-weight: 400;
+    font-size: 18px;
+    width: 500px;
+}
+.profession_counter_number{
+    font-weight: 700;
+    font-size: 58px;
+}
+.profession_counter1_desc{
+    font-weight: 400;
+    font-size: 18px;
+}
+.profession_line{
+    color: #19191C;
+    width: 200px;
+}
+.profession_counter2_desc{
+    font-weight: 400;
+    font-size: 18px;
+}
+.profession_counters{
+    display: flex;
+    gap: 103px;
+    display: none;
+}
+.profession_desc{
+    display: flex;
+    gap: 20px;
+}
+.profession_desc1{
+    background-color: #DEEFE4;
+}
+.profession_desc2{
+    background-color: #F3F3D7;
+}
+.profession_desc3{
+    background-color: #EFDEEE;
+}
+.profession_desc1_header{
+    font-size: 34px;
+    font-weight: 700;
+}
+.profession_desc2_header{
+    font-size: 34px;
+    font-weight: 700;
+}
+.profession_desc3_header{
+    font-size: 34px;
+    font-weight: 700;
+}
+.prices_title{
+    font-weight: 700;
+    font-size: 58px;
+}
+.prices1{
+    background-color: #DEEFE4;
+}
+.prices2{
+    background-color: #504DEE;
+    color: #FBFBFC;
+}
+.prices3{
+    background-color: #DEEFE4;
+}
+.prices2{
+    display: flex;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1439px){
+    .profession_counter{
+        flex: 1 1 100%;
+    }.profession_main{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
